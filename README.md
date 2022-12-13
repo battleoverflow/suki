@@ -20,5 +20,3 @@ suki -l -f "/home/suki/packages/requirements.txt"
 ```
 
 One thing to to remember, the `suki_pkgs` will be dumped in whatever directory you are currently working in.
-
-NOTE:
