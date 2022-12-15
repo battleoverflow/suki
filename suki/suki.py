@@ -1,13 +1,13 @@
 """
-    Owner: CyberSuki (https://github.com/cybersuki)
+    Owner: Hifumi1337 (https://github.com/hifumi1337)
     Project: Suki
     License: BSD 2-Clause
 """
 
 import site, os, argparse, shutil
 
-# Check out Faye, it's also a CyberSuki library
-# 👀 https://github.com/cybersuki/faye
+# Check out Faye, it's also one of my libraries
+# 👀 https://github.com/hifumi1337/faye
 from faye.faye import Faye
 
 parser = argparse.ArgumentParser()
@@ -22,7 +22,7 @@ class Suki():
 
     # Suki version
     def version() -> str:
-        return "0.0.4"
+        return "0.0.5"
 
     def banner():
         """
@@ -32,8 +32,8 @@ class Suki():
         print("-" * 26)
         print(f"🌸 (¬_¬) Suki | v{Suki.version()} 🌸")
         print("-" * 26)
-        print("Owner: CyberSuki (https://github.com/cybersuki)")
-        print("Source: https://github.com/cybersuki/suki")
+        print("Owner: Hifumi1337 (https://github.com/hifumi1337)")
+        print("Source: https://github.com/hifumi1337/suki")
         print("\n")
 
     def link():
