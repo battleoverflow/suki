@@ -1,5 +1,5 @@
 """
-    Owner: Hifumi1337 (https://github.com/hifumi1337)
+    Owner: azazelm3dj3d (https://github.com/azazelm3dj3d)
     Project: Suki
     License: BSD 2-Clause
 """
@@ -7,7 +7,7 @@
 import site, os, argparse, shutil
 
 # Check out Faye, it's also one of my libraries
-# 👀 https://github.com/hifumi1337/faye
+# 👀 https://github.com/shinigamilib/faye
 from faye.faye import Faye
 
 parser = argparse.ArgumentParser()
@@ -32,8 +32,8 @@ class Suki():
         print("-" * 26)
         print(f"🌸 (¬_¬) Suki | v{Suki.version()} 🌸")
         print("-" * 26)
-        print("Owner: Hifumi1337 (https://github.com/hifumi1337)")
-        print("Source: https://github.com/hifumi1337/suki")
+        print("Owner: azazelm3dj3d (https://github.com/azazelm3dj3d)")
+        print("Source: https://github.com/azazelm3dj3d/suki")
         print("\n")
 
     def link():
