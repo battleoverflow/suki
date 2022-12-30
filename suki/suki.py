@@ -22,7 +22,7 @@ class Suki():
 
     # Suki version
     def version() -> str:
-        return "0.0.5"
+        return "0.0.6"
 
     def banner():
         """
