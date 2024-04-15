@@ -1,5 +1,5 @@
 """
-    Owner: azazelm3dj3d (https://github.com/azazelm3dj3d)
+    Owner: battleoverflow (https://github.com/battleoverflow)
     Project: Suki
     License: BSD 2-Clause
 """
@@ -11,12 +11,12 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setuptools.setup(
     name = "suki",
-    version = "0.0.6",
-    author = "azazelm3dj3d",
+    version = "0.0.7",
+    author = "battleoverflow",
     description = "Suki is a Python symbolic link package manager created to make Python package management similar to node_modules.",
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = "https://github.com/azazelm3dj3d/suki",
+    url = "https://github.com/battleoverflow/suki",
     classifiers = [
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: BSD License",

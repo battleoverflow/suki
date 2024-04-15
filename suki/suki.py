@@ -1,5 +1,5 @@
 """
-    Owner: azazelm3dj3d (https://github.com/azazelm3dj3d)
+    Owner: battleoverflow (https://github.com/battleoverflow)
     Project: Suki
     License: BSD 2-Clause
 """
@@ -22,7 +22,7 @@ class Suki():
 
     # Suki version
     def version() -> str:
-        return "0.0.6"
+        return "0.0.7"
 
     def banner():
         """
@@ -32,8 +32,8 @@ class Suki():
         print("-" * 26)
         print(f"🌸 (¬_¬) Suki | v{Suki.version()} 🌸")
         print("-" * 26)
-        print("Owner: azazelm3dj3d (https://github.com/azazelm3dj3d)")
-        print("Source: https://github.com/azazelm3dj3d/suki")
+        print("Owner: battleoverflow (https://github.com/battleoverflow)")
+        print("Source: https://github.com/battleoverflow/suki")
         print("\n")
 
     def link():
